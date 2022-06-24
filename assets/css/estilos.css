@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main.container {
+  display: flex;
+  width: 100%;
+}
+
+.chat-section {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid silver;
+  height: 70px;
+  width: 100%;
+}
+
+.profile-thumbnail {
+  width: 15%;
+  height: 55%;
+  margin: auto;
+}
+
+.profile-thumbnail img {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.box-chat .text-primary-th {
+  width: 30%;
+}
+
+.box-chat .text-primary-th p {
+  font-size: 12px;
+}
+
+.box-chat .icon {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  color: gray;
+}
+
+.img-contacto {
+  width: 15%;
+  height: 65%;
+  margin: auto;
+}
+
+.img-contacto img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.box-chat .text-primary {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-chat .text-primary p {
+  font-size: 12px;
+  color: gray;
+}
+
+/* BOTON */
+.chat-btn {
+  height: 150px;
+  border: 1px solid silver;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chat-btn button {
+  text-align: center;
+  padding: 4% 10%;
+  margin: auto;
+  border: none;
+  background-color: #a491d2;
+  color: white;
+}
+
+/* SECCION PRINCIPAL LOGO */
+
+.container-principal {
+  background-color: rgb(236, 230, 230);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1pa solid gray;
+}
+
+.container-principal .logo {
+  width: 25%;
+  height: 25%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 3%;
+}
+
+.text-logo h2 {
+  font-size: 40px;
+}
+
+.text-logo p {
+  display: flex;
+  justify-content: center;
+}
